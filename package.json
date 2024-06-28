@@ -1,0 +1,37 @@
+{
+  "name": "the-red-cinemas",
+  "version": "1.0.0",
+  "description": "This is a movie booking application",
+  "main": "server/src/index.js",
+  "scripts": {
+    "start": "cd server && npm install && npm start",
+    "client": "cd client && npm start",
+    "server": "cd server && npm run dev",
+    "lint-client": "cd client && npm run lint",
+    "lint-server": "cd server && npm run lint",
+    "lint-client-action": "cd client && npm install && npm run lint",
+    "lint-server-action": "cd server && npm install && npm run lint",
+    "test-client-action": "cd client && npm install && npm run test",
+    "test-server-action": "cd server && npm install && npm run test",
+    "heroku-postbuild": "cd client && npm install && npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Thasneem Manaf",
+  "license": "MIT",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.14.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "prettier": "^2.1.2"
+  }
+}

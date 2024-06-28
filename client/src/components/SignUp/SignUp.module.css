@@ -1,0 +1,101 @@
+.form_content_right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: linear-gradient(90deg, rgb(40, 40, 40) 100%, rgb(17, 17, 17) 0%);
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  max-height: 32rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 1rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.form_inputs {
+  margin-bottom: 0.1rem;
+  width: 80%;
+}
+
+.form_inputs p {
+  font-size: 0.6rem;
+  margin-top: 0.1rem;
+  color: #f00e0e;
+}
+
+.form_label {
+  display: inline-block;
+  font-size: 0.8rem;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.form_input {
+  display: block;
+  padding-left: 10px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 96.5%;
+  border: none;
+}
+
+.form_input::placeholder {
+  color: #595959;
+  font-size: 12px;
+}
+
+.form_input_btn {
+  width: 80%;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #761818, #b54041, #f3686a);
+  outline: none;
+  border: none;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.form_input_btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    to top,
+    #761818,
+    #761818,
+    #761818,
+    #761818,
+    #761818,
+    #b54041,
+    #f3686a
+  );
+  transition: all 0.4s ease-out;
+}
+
+.form_input_login {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  color: #fff;
+  width: 80%;
+  text-align: center;
+}
+
+.form_input_login a {
+  text-decoration: none;
+  color: #27cdff;
+  font-weight: 600;
+}

@@ -1,0 +1,11 @@
+.row {
+  padding: 0.5rem 1rem;
+  color: #fff;
+  margin-top: 70px;
+}
+
+@media screen and (max-width: 380px) {
+  .row_title {
+    text-align: center;
+  }
+}
